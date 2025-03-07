@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    padding: 64px 120px;
+    display: flex;
+    gap: 64px;
+}
+
+.kolom-kiri {
+    width: 45%;
+}
+
+.kolom-kiri img {
+    width: 100%;
+}
+
+.kolom-kanan {
+    width: 55%;
+}
+
+.judul {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.login {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.login:hover {
+    background-color: rgb(58, 58, 250);
+}
+
+.remember {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember div {
+    display: flex; 
+    justify-items: center;
+    gap: 8px;
+}
+
+.signup {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.signup a {
+    text-decoration: none;
+}
+
+.judul span {
+    color: blue;
+}
+
+.password:focus {
+    
+}
+
+.coba {
+    background: #ee0000;
+}
+
+div {
+    padding: 12px 8px;
+}
